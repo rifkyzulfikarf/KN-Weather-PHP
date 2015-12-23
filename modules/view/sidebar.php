@@ -1,6 +1,6 @@
 <?php
 
-class menu extends koneksi {
+class menu extends connection {
 	function cek_menu($id_user, $level, $induk) {
 
 		$id_user = $this->clearText($id_user);
@@ -40,7 +40,7 @@ if (isset($_SESSION['en-data']) && $_SESSION['en-data'] != "") {
 							echo "<li class='sub-menu'><a href='javascript:;'><i class='".$rs1['icon']."'></i><span>".$rs1['nama']."</span></a><ul class='sub'>";
 
 							while ($rs2 = $level2->fetch_assoc()) {
-								echo "<li><a href='#' class='link-menu' data-link='".e_url($rs2['url'])."' data-hash='".$rs2['nama']."'>".$rs2['nama']."</a></li>";
+								echo "<li><a href='#' class='link-menu' data-link='".e_url($rs2['url'])."' data-hash='".$rs2['nama']."'><i class='".$rs2['icon']."'></i>".$rs2['nama']."</a></li>";
 							}
 
 							echo "</ul></li>";
