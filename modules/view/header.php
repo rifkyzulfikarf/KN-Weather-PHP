@@ -5,7 +5,7 @@
 	</div>
 	
 	<!--logo start-->
-	<a href="./" class="logo" >AD<span>MIN</span></a>
+	<a href="./" class="logo" >KN<span>WEATHER</span></a>
 	<!--logo end-->
 	
 	<div class="nav notify-row" id="top_menu">
