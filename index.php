@@ -62,7 +62,7 @@
 					<script type="text/javascript" src="assets/data-tables/DT_bootstrap.js"></script>
 					<script type="text/javascript" src="assets/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
 					<script type="text/javascript" src="assets/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
-
+					
 					<!--common script for all pages-->
 					<script src="js/common-scripts.js"></script>
 				</body>

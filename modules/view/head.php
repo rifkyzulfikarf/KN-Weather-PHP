@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="assets/data-tables/DT_bootstrap.css" />
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap-datepicker/css/datepicker.css" />
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap-timepicker/compiled/timepicker.css" />
+	<link href="assets/morris.js-0.4.3/morris.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
@@ -30,4 +31,6 @@
       <script src="js/respond.min.js"></script>
     <![endif]-->
 	<script src="js/jquery.js"></script>
+	<script src="assets/morris.js-0.4.3/morris.min.js" type="text/javascript"></script>
+	<script src="assets/morris.js-0.4.3/raphael-min.js" type="text/javascript"></script>
 </head>
